@@ -227,8 +227,9 @@ void dbModule::addInst(dbInst* inst)
 }
 
 
-void dbModule::removeInst(dbInst* inst)
+void _dbModule::removeInst(dbInst* inst)
 {
+  _dbModule* module = (_dbModule*) this;
   _dbInst* _inst = (_dbInst*) inst;
   if (_inst->_module != getOID())
     return;
