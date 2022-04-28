@@ -41,6 +41,8 @@ record_tests {
   core_grid_strap_count
 
   core_grid_no_trim
+  
+  core_grid_offset_strap
 
   macros
   macros_with_halo
@@ -79,6 +81,9 @@ record_tests {
 
   existing
 
-  power_switch.api
-  power_switch.daisy.api
+  power_switch
+  power_switch_star
+  power_switch_daisy
+  power_switch_regions
+  power_switch_cut_rows
 }
